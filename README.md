@@ -5,13 +5,13 @@ Flatten TailwindCSS theme objects for plugins to conveniently generate utilities
 ## Install
 
 ```bash
-yarn add -D flatten-tailwindcss-theme
+yarn add flatten-tailwindcss-theme
 ```
 
 Or if you use `npm`:
 
 ```bash
-npm i --save-dev flatten-tailwindcss-theme
+npm i --save flatten-tailwindcss-theme
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm i --save-dev flatten-tailwindcss-theme
 const plugin = require("tailwindcss/plugin");
 const flatten = require("flatten-tailwindcss-theme");
 
-const textfill = plugin(({ addUtilities, variants, theme, e }) => {
+module.exports = plugin(({ addUtilities, variants, theme, e }) => {
   const colors = flatten(theme("colors"));
   const utils = Object.entries(colors).reduce(
     (res, [key, value]) =>
@@ -35,10 +35,9 @@ const textfill = plugin(({ addUtilities, variants, theme, e }) => {
   );
   addUtilities(utils, variants("textfill"));
 });
-module.exports = textfill;
 ```
 
-> The above plugin will add classes: `textfill-white`, `textfill-gray-100`, `textfill-gray-200`, etc.
+> The above plugin add classes: `textfill-white`, `textfill-gray-100`, `textfill-gray-200`, ... , `textfill-blue-100`, `textfill-blue-200`, ... , etc.
 
 ### In a generic Node.js task
 
@@ -73,10 +72,12 @@ const output = flatten({
     900: "#742a2a",
   },
 });
+
 console.log(output);
 ```
 
 ```
+// Output:
 {
   transparent: 'transparent',
   current: 'currentColor',
