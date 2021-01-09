@@ -1,0 +1,21 @@
+{
+  "name": "flatten-tailwindcss-theme",
+  "version": "0.0.0",
+  "description": "🔨 Flatten TailwindCSS theme objects for plugins to conveniently generate utilities and components.",
+  "repository": "https://github.com/phuctm97/flatten-tailwindcss-theme",
+  "main": "index.js",
+  "author": {
+    "name": "Minh-Phuc Tran",
+    "email": "me@phuctm97.com",
+    "url": "https://phuctm97.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "style:check": "prettier --check .",
+    "style:format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
