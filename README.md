@@ -1,5 +1,8 @@
 # 🔨 flatten-tailwindcss-theme
 
+[![npm version][npm badge]][npm url]
+[![GitHub license][license badge]][license url]
+
 Flatten TailwindCSS theme objects for plugins to conveniently generate utilities and components.
 
 ## Install
@@ -113,6 +116,13 @@ console.log(output);
 ---
 
 Made by [@phuctm97].
+
+<!-- Badges -->
+
+[npm badge]: https://img.shields.io/npm/v/flatten-tailwindcss-theme?logo=npm
+[license badge]: https://img.shields.io/github/license/phuctm97/flatten-tailwindcss-theme
+[npm url]: https://www.npmjs.com/package/flatten-tailwindcss-theme
+[license url]: /LICENSE
 
 <!-- Links -->
 
