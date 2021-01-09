@@ -1,6 +1,6 @@
 {
   "name": "flatten-tailwindcss-theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "🔨 Flatten TailwindCSS theme objects for plugins to conveniently generate utilities and components.",
   "repository": "https://github.com/phuctm97/flatten-tailwindcss-theme",
   "main": "index.js",
