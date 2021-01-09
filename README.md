@@ -109,3 +109,11 @@ console.log(output);
 - Node.js 12+
 
 - TailwindCSS 2
+
+---
+
+Made by [@phuctm97].
+
+<!-- Links -->
+
+[@phuctm97]: https://phuctm97.com
