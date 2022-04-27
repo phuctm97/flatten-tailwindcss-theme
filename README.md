@@ -111,7 +111,7 @@ console.log(output);
 
 - Node.js 12+
 
-- TailwindCSS 2
+- TailwindCSS 2+
 
 ---
 
