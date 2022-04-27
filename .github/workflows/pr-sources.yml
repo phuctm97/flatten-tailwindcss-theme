@@ -2,7 +2,7 @@ name: PR / Sources
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   validate-sources:
