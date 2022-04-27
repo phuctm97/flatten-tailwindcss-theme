@@ -1,6 +1,6 @@
 {
   "name": "flatten-tailwindcss-theme",
-  "version": "0.1.1",
+  "version": "0.0.0-SNAPSHOT",
   "private": false,
   "license": "MIT",
   "description": "🔨 Flatten TailwindCSS theme objects for plugins to conveniently generate utilities and components.",
