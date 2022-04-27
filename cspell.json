@@ -1,0 +1,4 @@
+{
+  "words": ["commitlint", "minh-phuc"],
+  "ignorePaths": ["package.json", "cspell.json", ".vscode"]
+}
