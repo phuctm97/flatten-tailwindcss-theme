@@ -137,9 +137,9 @@ console.log(output);
 
 - When a PR is merged or code is pushed to `master`, Github automatically builds and publishes a new release if there're relevant changes
 
----
+## Author
 
-Made by [@phuctm97].
+- [Minh-Phuc Tran][@phuctm97]
 
 <!-- Badges -->
 
